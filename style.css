@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-weight: 1000;
+  text-shadow: 4px 4px 4px black;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  
+}
+img{
+  max-width:90%;
+}
+canvas{
+  display: block;
+}
+footer{
+  font-family: "Sacramento", cursive;
+  font-size: 25px;
+  font-weight: 800;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 2px 3px 3px rgb(90,6,6);
+}
+
+.nomelink{
+  text-decoration: none;
+  color: white;
+}
+
+.nomelink:hover{
+  color: red;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+button{
+   font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 100px;
+  color: white;
+  margin: 20px;
+  padding: 10px; 
+  text-shadow: 1px 2px 2px black;
+}
+
+button:hover{
+  background-color: brown;
+    border: 1px solid black;
+  font-width: 900;
+  color: black;
+}
+
+main{
+  max-width: 90%;
+  text-align: center;
+  flex: 1;
+  padding: 1em;
+}
+
+.passo{
+  display: none
+}
+
+.passo.ativo{
+  display: block;
+}

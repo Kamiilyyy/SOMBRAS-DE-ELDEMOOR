@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300..700&family=Sacramento&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <main>
+      <div class="passo ativo" id="passo-0">
+        <img src="logo.png">
+      <p>
+        A história começa na vila isolada de Eldermoor, cercada por densas florestas de pinheiros e montanhas que pareciam engolir qualquer vestígio de civilização. Era uma noite úmida e escura; o céu estava coberto por nuvens pesadas que ocultavam as estrelas. Eldermoor tinha um ar de mistério, como se cada canto escondesse segredos há muito enterrados.  
+
+No centro da vila, há uma antiga taverna chamada A Vela Trêmula, cujas paredes são decoradas com retratos de ancestrais esquecidos. É aqui que conhecemos Kamily, uma jovem programadora de 26 anos que foi atraída até Eldermoor após receber uma mensagem anônima sobre o desaparecimento de sua melhor amiga, Lily.  
+
+Kamily é inteligente e perspicaz, com cabelos ruivos lizos, olhos castanhos profundos e uma pequena cicatriz no queixo, lembrança de sua infância. Ela veste roupas práticas, com botas resistentes e uma jaqueta de couro, perfeitas para explorar o terreno acidentado.  
+
+No entanto, Kamily não está sozinha nessa investigação. Durante a viagem até Eldermoor, seu celular começou a receber mensagens criptografadas de um homem chamado Jake, que afirma ser um hacker disposto a ajudar. Jake, de 28 anos, é uma figura misteriosa que trabalha à distância, fornecendo informações, quebrando sistemas e guiando Kamily em momentos cruciais. Suas mensagens são cheias de humor sarcástico, mas ele demonstra estar genuinamente preocupado com o caso.  
+
+Seu contato inicial foi direto:  
+"Kamily, sei que parece estranho, mas Lily me contratou antes de desaparecer. Ela sabia que estava sendo observada. Vou te ajudar, mas você precisa confiar em mim."  
+
+Kamily hesita, mas aceita a ajuda. Jake envia um aplicativo para o celular dela, chamado "Sombras de Eldermoor", que guia suas escolhas e fornece informações críticas em momentos-chave.  
+        </p>
+      <button class="proximo" data-proximo="1">
+             Explorar a floresta no lado norte da vila🔎
+              </button>
+      
+       <button class="proximo" data-proximo="2">
+      Investigar a igreja abandonada ao sul⛪
+               </button>
+      </div>
+      
+            <div class="passo" id="passo-1">
+        <img src="logo.png">
+      <p>   Kamily decide explorar a floresta no lado norte da vila. As árvores são tão altas e fechadas que bloqueiam a luz da lua. O som de folhas secas sendo esmagadas ecoa a cada passo. Enquanto ela avança, Jake envia uma mensagem:  
+*"Os registros de geolocalização de Lily mostram que ela esteve nessa área várias vezes antes de desaparecer. Fique alerta. Ah, e não esqueça, qualquer coisa estranha, mande foto.
+        </p>
+      <button class="proximo" data-proximo="3">
+             Seguir o som de passos distantes👣
+              </button>   
+      
+       <button class="proximo" data-proximo="4">
+      Procurar faixas em uma cabana abandonada🕸
+               </button>
+      </div>
+        
+        <div class= "passo" id="passo-2">
+            <img src="logo.png">
+          <p>
+            Kamily escolhe investigar a igreja abandonada ao sul. A construção é antiga, com pedras desgastadas pelo tempo e uma torre inclinada que parece desafiar a gravidade. Ao entrar, o ar é pesado, e há símbolos estranhos gravados nas paredes. Jake envia uma mensagem de voz:  
+"Eu consegui hackear os arquivos históricos de Eldermoor. Aquela igreja foi abandonada há décadas, mas os símbolos que você está vendo? São de um culto chamado Ordem do Olho. Cuidado, Kamily, eles são perigosos."
+          </p>
+          
+          <button class="proximo" data-proxima="5">
+             Abrir uma porta secreta atrás do altar👻
+          </button>
+          
+           <button class="proximo" data-proxima="6">
+            Examinar as inscrições nas paredes.🧐
+          </button>
+          
+          </div>
+      
+        <div class= "passo" id="passo-5">
+            <img src="logo.png">
+          <p>
+            Kamily abre a porta secreta atrás do altar e desce por uma escada estreita que leva a um túnel subterrâneo. Lá, encontra dois caminhos diferentes. Jake avisa:  
+"Consegui acessar um mapa antigo dos túneis. Um dos caminhos leva direto a um santuário da Ordem. O outro... pode ser uma armadilha. Seja esperta."
+          </p>
+          
+          <button class="proximo" data-proxima="7">
+            Seguir o túnel iluminado à direita➡
+          </button>
+          
+           <button class="proximo" data-proxima="8">
+            Seguir o túnel escuro à esquerda⬅
+          </button>
+          
+          </div>
+      
+        <div class= "passo" id="passo6">
+            <img src="perdeu.png">
+          <p>
+            Kamily examina as inscrições nas paredes, mas não percebe o mecanismo oculto ativado. Uma armadilha é acionada, e ela é capturada por uma figura encapuzada. Jake tenta rastrear sua localização, mas não consegue a tempo. Kamily perde
+          </p>
+          
+          <button class="proximo" data-proxima="0">
+            Reiniciar?
+          </button>
+          
+          </div>
+      
+        <div class= "passo" id="passo-7">
+            <img src="ganhou.png">
+          <p>
+            Ao seguir o túnel iluminado, Kamily encontra Lily, presa, mas viva! Jake consegue invadir os sistemas de vigilância e desativar o alarme. Ela resgata Lily e descobre informações cruciais sobre quem está por trás do desaparecimento. Kamily ganha esta etapa e avança.  
+          </p>
+          
+          <button class="proximo" data-proxima="0">
+            Reiniciar?
+          </button>
+          
+          </div>
+      
+        <div class= "passo" id="passo-8">
+            <img src="logo.png">
+          <p>
+            Após resolver ou falhar na etapa anterior, Kamily retorna a uma nova fase da investigação, mas com informações adicionais que mudam o contexto. Jake a ajuda a reunir as pistas, conectando os pontos do que já foi descoberto. Ele manda uma mensagem:  
+"Kamily, estamos ficando mais perto, mas eles sabem que você está por aí. Precisa ser cuidadosa a partir de agora. Qual é o próximo passo? Escolha bem."
+          </p>
+          
+          <button class="proximo" data-proxima="3">
+             Seguir o som de passos distantes👣
+          </button>
+          
+           <button class="proximo" data-proxima="4">
+            Procurar pistas em uma cabana abandonada⛪
+          </button>
+           </div>
+      
+        <div class= "passo" id="passo-3">
+            <img src="logo.png">
+          <p>
+            Kamily segue o som de passos distantes na floresta. A cada movimento, o barulho se intensifica, até que ela encontra uma clareira iluminada por tochas. No centro, um objeto brilhante está enterrado no chão. Jake envia uma mensagem urgente:  
+"O sistema detectou um sinal de vigilância nessa área. Pegue o objeto rápido ou caia fora. Escolha com cuidado!"
+          </p>
+          
+          <button class="proximo" data-proxima="9">
+            Pegar o objeto brilhante🎇
+          </button>
+          
+           <button class="proximo" data-proxima="10">
+            Observar de longe para ver se alguém aparece👓
+          </button>
+          </div>
+      
+        <div class= "passo" id="passo-4">
+            <img src="ganhou.png">
+          <p>
+            Kamily decide procurar pistas na cabana abandonada. Ao entrar, ela encontra um diário antigo pertencente a Lily, com detalhes que a levam diretamente ao esconderijo da amiga. Jake envia uma mensagem:  
+"Esse diário é ouro puro. Vou descriptografar as anotações pra você. Aguarde." 
+
+Kamily ganha esta etapa, encontrando uma pista vital!
+          </p>
+          
+          <button class="proximo" data-proxima="0">
+            Reiniciar?
+          </button>
+          </div>
+      
+        <div class= "passo" id="passo-10">
+            <img src="perdeu.png">
+          <p>
+            Kamily hesita e decide observar de longe. Enquanto ela se esconde atrás das árvores, figuras encapuzadas emergem das sombras e cercam o objeto brilhante. Um deles parece farejar o ar, como se sentisse sua presença. Jake envia uma mensagem frenética:  
+"Eles sabem que você está aí. Corra, agora!"
+
+Antes que Kamily possa reagir, é descoberta e capturada. Jake tenta rastrear sua localização, mas perde o sinal. Ela perde nesta etapa, sendo levada para um local desconhecido.    
+          </p>
+          
+          <button class="proximo" data-proxima="0">
+            Reiniciar?
+          </button>
+          </div>
+      
+        <div class= "passo" id="passo-9">
+            <img src="ganhou.png">
+          <p>
+            Kamily decide pegar o objeto brilhante na clareira. Ao fazê-lo, ela percebe que é uma pequena chave dourada com inscrições semelhantes às encontradas na igreja abandonada. Jake envia uma mensagem:  
+"Essa chave pode abrir algo importante. Espere... estou recebendo sinais de movimento perto de você. Saia daí agora!"
+          </p>
+          
+          <button class="proximo" data-proxima="0">
+            Reiniciar?
+          </button>
+          </div>
+      
+    </main>
+  <footer>
+  <p> jogo produzido por <a href="https://github.com/" class="nomelink"> Kamily Vitória Cardozo de Araújo </a> </p>
+</footer>
+    <script src="sketch.js"></script>
+  </body>
+</html>
